@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Titre</title>
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    <body>
+        <div class="topbar">
+            <a href='index.php'><p>INDEX</p></a>
+            <a href='register.html'><p>REGISTER</p></a>
+            <a href='login.php'><p>LOGIN</p></a>
+            <a href='ajoutDB.php'><p>RECETTES</p></a>
+            <a href='recherches.php'><p>POSTER</p></a>
+        </div>
+        <div class="main">
+        <h2>Formulaire de saisie</h2>
+        <br>
+
+        <form action="ajoutDB.php" method="post" enctype="multipart/form-data">
+
+            <label for="nom">Nom de votre recette:</label>
+            <input type="text" id="nom" name="nom"><br><br>
+
+            <label for="nbpersonne">Nombre de personnes :</label>
+            <input type="text" id="nbpersonne" name="nbpersonne"><br><br>
+
+            <label for="tpsPrep">Temps de préparation :</label>
+            <input type="text" id="tpsPrep" name="tpsPrep"><br><br>
+
+            <label for="tpsRep">Temps de repos :</label>
+            <input type="text" id="tpsRep" name="tpsRep"><br><br>
+
+            <label for="tpsCuis">Temps de cuisson :</label>
+            <input type="text" id="tpsCuis" name="tpsCuis"><br><br>
+
+            <label for="etape">Étapes, séparées par un ";" :</label>
+            <input type="text" id="etape" name="etape"><br><br>
+
+            <label for="ustentile">Ustensiles (même règle) :</label>
+            <input type="text" id="ustentile" name="ustentile"><br><br>
+
+            <label for="tag">Tags (même règle) :</label>
+            <input type="text" id="tag" name="tag"><br><br>
+
+            <label for="aliment">Aliments (même règle) :</label>
+            <input type="text" id="aliment" name="aliment"><br><br>
+
+            <label for="image">Image :</label>
+            <input type="file" id="image" name="image"><br><br>
+
+
+            <input type="submit" value="Envoyer" id="end">
+        </form>
+    </div>
+
+        <div class="bgwrap">
+            <img src="registerBG.avif" alt="pizza">
+        </div>
+    </body>
+</html>

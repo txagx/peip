@@ -1,0 +1,20 @@
+.tags-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+}
+.tags-column {
+     /* Largeur de chaque colonne */
+    margin-right: 20px; /* Espacement entre les colonnes */
+}
+::-webkit-scrollbar {
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}

@@ -1,0 +1,4 @@
+server_name : localhost
+login : root
+password : 
+nom_db : recettes
